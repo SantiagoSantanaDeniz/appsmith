@@ -1,0 +1,24 @@
+INSERT INTO public."ReporteDeIncidentes" (
+	nombre,
+	localidad,
+	telefono,
+	fecha,
+	planta,
+	activo,
+	descripcion,
+	comentarios,
+	imagen, 
+	estado
+)
+VALUES (
+	'{{InputNombre.text}}',
+	'{{InputLocalidad.selectedOptionValue}}',
+	'{{InputTelefono.text}}',
+	'{{DatePickerFecha.formattedDate}}',
+	'{{InputPlanta.selectedOptionValue}}',
+	'{{InputActivo.selectedOptionValue}}',
+	'{{InputDescripcion.text}}',
+	'{{InputComentarios.text}}',
+	'{{InputImagen.files[0]?.data}}',
+	'Pendiente'
+);

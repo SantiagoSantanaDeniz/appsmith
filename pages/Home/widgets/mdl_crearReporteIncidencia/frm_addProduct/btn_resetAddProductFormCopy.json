@@ -1,0 +1,71 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 85,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "resetFormOnClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "false",
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "k5mu5b8ynw",
+  "leftColumn": 43,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 30,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 33,
+  "onClick": "{{utils.createReporte();\nshowAlert(\"\", '').then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('Error', '');\n});}}",
+  "originalBottomRow": 71,
+  "originalTopRow": 67,
+  "parentId": "4idhzvpvwc",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": "true",
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Subir",
+  "topRow": 81,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "pp4it3t9zn",
+  "widgetName": "btn_resetAddProductFormCopy"
+}

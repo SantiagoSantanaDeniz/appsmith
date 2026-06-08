@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 61,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.activeEditReporte?.estado || ''))(InputActivoCopyCopy.options, InputActivoCopyCopy.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": "{{ appsmith.store.usuarioLogueado?.rol === \"OPERADOR\" }}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "54hvqijegk",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Estado",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "optionLabel": "value",
+  "optionValue": "value",
+  "originalBottomRow": 50,
+  "originalTopRow": 43,
+  "parentColumnSpace": 8.28125,
+  "parentId": "6wacaojeec",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar opción",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 23,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Pendiente\",\n    \"value\": \"Pendiente\"\n  },\n  {\n    \"label\": \"En proceso\",\n    \"value\": \"En proceso\"\n  },\n  {\n    \"label\": \"Asignado\",\n    \"value\": \"Asignado\"\n  },\n  {\n    \"label\": \"En revisión\",\n    \"value\": \"En revisión\"\n  },\n  {\n    \"label\": \"Resuelto\",\n    \"value\": \"Resuelto\"\n  },\n  {\n    \"label\": \"Cerrado\",\n    \"value\": \"Cerrado\"\n  },\n  {\n    \"label\": \"Cancelado\",\n    \"value\": \"Cancelado\"\n  }\n]",
+  "topRow": 54,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "h9eaalxp4h",
+  "widgetName": "InputActivoCopyCopy"
+}

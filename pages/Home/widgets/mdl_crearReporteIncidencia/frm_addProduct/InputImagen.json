@@ -1,0 +1,65 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 77,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onFilesSelected"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "kdplujvzyw",
+  "label": "Seleccionar Imágen",
+  "leftColumn": 1,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{ appsmith.store.activeEditReporte?.imagen || '' }}",
+  "originalBottomRow": 71,
+  "originalTopRow": 67,
+  "parentColumnSpace": 8.28125,
+  "parentId": "4idhzvpvwc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 23,
+  "selectedFiles": [],
+  "topRow": 73,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "3wdl07pl91",
+  "widgetName": "InputImagen"
+}

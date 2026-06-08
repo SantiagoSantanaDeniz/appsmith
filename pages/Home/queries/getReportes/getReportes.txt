@@ -1,0 +1,17 @@
+SELECT
+  id,
+  nombre,
+  localidad,
+  telefono,
+  fecha,
+  planta,
+  activo,
+  descripcion,
+  comentarios,
+  imagen,
+  estado
+FROM public."ReporteDeIncidentes"
+WHERE
+  ({{ appsmith.store.usuarioLogueado?.rol === 'TECNICO' }})
+  OR LOWER(TRIM(estado)) = 'pendiente'
+ORDER BY id DESC;

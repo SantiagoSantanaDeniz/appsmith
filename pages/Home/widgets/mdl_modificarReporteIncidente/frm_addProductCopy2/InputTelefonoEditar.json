@@ -1,0 +1,66 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowDialCodeChange": false,
+  "allowFormatting": true,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "defaultDialCode": "+598",
+  "defaultText": "{{appsmith.store.activeEditReporte?.telefono || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "isDisabled": "{{ appsmith.store.usuarioLogueado?.rol === \"TECNICO\" }}",
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "pl1cygj25o",
+  "label": "Número de Teléfono",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 26,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 8.28125,
+  "parentId": "6wacaojeec",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "topRow": 18,
+  "type": "PHONE_INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "wsg52mthw9",
+  "widgetName": "InputTelefonoEditar"
+}

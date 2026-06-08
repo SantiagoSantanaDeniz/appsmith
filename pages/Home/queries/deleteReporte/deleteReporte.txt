@@ -1,0 +1,2 @@
+DELETE FROM public."ReporteDeIncidentes"
+WHERE id = {{appsmith.store.activeEditReporte.id}};

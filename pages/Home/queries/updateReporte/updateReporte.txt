@@ -1,0 +1,8 @@
+UPDATE public."ReporteDeIncidentes"
+SET
+	nombre = '{{InputNombreEditar.text}}',
+	localidad = '{{InputLocalidadEditar.selectedOptionValue}}',
+	telefono = '{{InputTelefonoEditar.text}}',
+	descripcion = '{{InputDescripcionEditar.text}}',
+	comentarios = '{{InputComentariosEditar.text}}'
+WHERE id = {{appsmith.store.activeEditReporte.id}};

@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 77,
+  "boxShadow": "none",
+  "defaultText": "{{appsmith.store.activeEditReporte?.comentarios || ''}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDeprecated": false,
+  "isDisabled": "{{ appsmith.store.usuarioLogueado?.rol === \"TECNICO\" }}",
+  "isLoading": false,
+  "isRequired": false,
+  "isSpellCheck": true,
+  "isVisible": true,
+  "key": "kzx3of01fh",
+  "label": "Comentarios",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 24,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 21,
+  "parentColumnSpace": 10.1875,
+  "parentId": "6wacaojeec",
+  "parentRowSpace": 10,
+  "placeholderText": "Ingresar comentarios adicionales",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "shouldAllowAutofill": false,
+  "shouldScrollContents": true,
+  "showStepArrows": false,
+  "tags": [
+    "Suggested",
+    "Inputs"
+  ],
+  "topRow": 54,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "swdju3mgbo",
+  "widgetName": "InputComentariosEditar"
+}

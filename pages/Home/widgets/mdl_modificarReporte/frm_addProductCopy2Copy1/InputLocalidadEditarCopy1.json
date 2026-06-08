@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.activeEditReporte?.localidad || ''))(InputLocalidadEditarCopy1.options, InputLocalidadEditarCopy1.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "54hvqijegk",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Localidad",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 30,
+  "originalTopRow": 23,
+  "parentColumnSpace": 8.28125,
+  "parentId": "b5voqx7x0m",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar opción",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 28,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Montevideo\",\n    \"code\": \"MONTEVIDEO\"\n  },\n  {\n    \"name\": \"Canelones\",\n    \"code\": \"CANELONES\"\n  },\n  {\n    \"name\": \"Maldonado\",\n    \"code\": \"MALDONADO\"\n  },\n  {\n    \"name\": \"Colonia\",\n    \"code\": \"COLONIA\"\n  },\n  {\n    \"name\": \"Paysandú\",\n    \"code\": \"PAYSANDU\"\n  },\n  {\n    \"name\": \"Salto\",\n    \"code\": \"SALTO\"\n  },\n  {\n    \"name\": \"Rivera\",\n    \"code\": \"RIVERA\"\n  },\n  {\n    \"name\": \"Tacuarembó\",\n    \"code\": \"TACUAREMBO\"\n  }\n]",
+  "topRow": 18,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "i4y1ysl360",
+  "widgetName": "InputLocalidadEditarCopy1"
+}

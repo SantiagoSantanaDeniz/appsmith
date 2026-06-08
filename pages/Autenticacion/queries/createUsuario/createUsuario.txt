@@ -1,0 +1,15 @@
+INSERT INTO public."Trabajadores" (
+	nombre,
+	apellido,
+	email,
+	contrasenia,
+	rol
+)
+VALUES (
+	{{ InputNombre.text }},
+	{{ InputApellido.text }},
+	{{ InputEmail.text }},
+	{{ InputPassword.text }}, 
+	{{ InputRol.selectedOptionValue }}
+)
+RETURNING *;
